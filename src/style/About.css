@@ -1,0 +1,58 @@
+.About_div{
+  height:100vh;
+  width: 100vw;
+  background-color: rgb(226, 232, 238);
+
+}
+.About_Name{
+  /* text-align: center; */
+  padding-top: 6rem;
+  padding-left: 3rem;
+  font-family: 'Roboto Slab';
+  font-size: 3rem;
+  font-weight: 1000px;
+}
+.About_Img{
+  width: 38rem;
+  margin-left: 9rem;
+  margin-top: 6rem;
+
+}
+.About_line{
+  height: 1rem;
+  width:70%;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  background-color: aqua;
+  
+}
+.About_text{
+  margin-top: 3rem;
+  margin-left: 3rem;
+  word-wrap: break-word;
+  width: 80%;
+  font-size: 1.4rem;
+  font-family: 'Roboto Slab';
+}
+.call_logo{
+  font-size: 3rem;
+  color: rgb(18, 182, 227);
+  margin-right: 2rem;
+}
+.grapn_img{
+  margin-top: 4rem;
+  margin-left: 3rem;
+  position: absolute;
+  z-index: 1;
+  
+  
+}
+.graph_overlap{
+  width:40rem;
+  margin-left: 4rem;
+}
+.about_img{
+  position: absolute;
+  z-index: 2;
+}
+

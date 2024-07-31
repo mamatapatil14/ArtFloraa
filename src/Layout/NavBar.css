@@ -1,0 +1,90 @@
+.mainnav {
+    height: 3.7rem;
+
+    border-radius: 50%;
+    width: 100%;
+    margin-left: 0.1rem;
+
+
+}
+
+.artlogo{
+    padding-top: -11rem;
+    height:3.5rem;
+}
+
+.mlink {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.6rem;
+    color: white;
+    text-decoration: none;
+}
+
+.artcol {
+    color: rgb(32, 11, 11);
+    size: 100px;
+}
+
+.navglass {
+    background-color: rgba(39, 39, 186, 0.45);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 65px;
+}
+
+.navlink {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navlogo {
+    color: white;
+}
+
+.shopcart {
+
+    font-size: 2rem;
+}
+
+.logbtn {
+    margin-top: 0.5rem;
+    margin-right: -6rem;
+    margin-left: 0.3rem;
+}
+
+
+
+
+
+
+.Site-Navigation {
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    transition: top 0.4s;
+    background: rgba( 14, 12, 12, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+}
+
+
+.Site-Navigation.active {
+    background: black;
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+
+}
+
+
+.badgecart{
+    margin-bottom: 3rem;
+}

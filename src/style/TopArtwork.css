@@ -1,0 +1,196 @@
+.artw_div {
+  width: 100vw;
+  height: 75vh;
+  background-image: url("../images/bluebubble.jpg");
+}
+
+.artw_svg {
+  position: relative;
+  z-index: 1;
+}
+
+
+.artw_card {
+  position: relative;
+  z-index: 2;
+  margin-top: -25rem;
+}
+
+.artw_name {
+  margin-left: 40rem;
+  font-family: 'Roboto Slab';
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #520463 0%,
+      #d8e526 29%,
+      #e30c0c 67%,
+      #000000 100%);
+
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 3rem;
+
+}
+
+.artwcard {
+  margin-top: 3rem;
+  margin-left: 3rem;
+
+  position: relative;
+  width: 18rem;
+  height: 350px;
+  color: #070707;
+  background:white;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 0;
+  -webkit-box-shadow: 6px -6px 18px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px -6px 18px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px -6px 18px -3px rgba(0, 0, 0, 0.75);
+}
+
+.card_content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+
+  background: linear-gradient(rgb(19, 234, 116), rgb(41, 210, 222));
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  transform: translateY(150px);
+  transition: transform .25s;
+}
+
+.card_content::before {
+  content: '';
+  position: absolute;
+  top: -47px;
+  right: -45px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-175deg);
+  border-radius: 50%;
+  box-shadow: inset 48px 48px #101212;
+}
+
+
+.card_subtitle {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.card_description {
+  font-family: 'Poppins';
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.artwcard:hover .card_content {
+  transform: translateY(0);
+}
+
+.artwcard:hover .card_description {
+  opacity: 1;
+  transition-delay: .25s;
+}
+
+.Guide_Image {
+  width: 100%;
+  height: 86%;
+
+}
+
+.More_artwork {
+  display: flex;
+  margin-left: 45%;
+  margin-top: 1.5rem;
+  height: 2.5rem;
+
+}
+
+
+.More_artwork {
+  --primary-color: #1577bd;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+}
+
+.More_artwork .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.More_artwork .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+.More_artwork .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.More_artwork:hover {
+  background-color: var(--hover-color);
+}
+
+.More_artwork:hover .arrow {
+  background: var(--secondary-color);
+}
+
+.More_artwork:hover .arrow:before {
+  right: 0;
+}
+
+.artrating{
+  width:3.3rem;
+  height: 1.8rem;
+  background-color: green;
+  /* margin-left: 5rem; */
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}

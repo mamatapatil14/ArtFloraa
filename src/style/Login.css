@@ -1,0 +1,113 @@
+.logdiv {
+
+    height: 100vh;
+}
+
+.logbox {
+    height: 90%;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    margin-top: -550px;
+    position: relative;
+    z-index: 2;
+}
+
+.svgwave {
+    position: relative;
+    z-index: 1;
+}
+
+.logincol1 {
+    width: 40rem;
+    height: 80vh;
+    border-radius: 0.75rem;
+    background-color: rgb(237, 240, 243);
+    -webkit-box-shadow: -30px 39px 16px -17px rgb(33, 37, 37);
+    -moz-box-shadow: -30px 39px 16px -17px rgb(28, 31, 31);
+    box-shadow: -30px 39px 16px -17px rgb(31, 39, 39)
+}
+
+.loginform {
+    width: 100%;
+    margin-left: 4rem;
+}
+
+.logo {
+    font-size: 5rem;
+    color: rgb(212, 212, 233);
+    margin-left: 13rem;
+}
+
+.logocol2 {
+    margin-top: -33rem;
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(21, 28, 42);
+    color: rgb(114, 118, 127);
+    border-radius: 0.75rem;
+    margin-left: 30rem;
+    margin-right: 4rem;
+    -webkit-box-shadow: 10px -10px 5px 0px rgba(67, 209, 231, 0.75);
+    -moz-box-shadow: 10px -10px 5px 0px rgba(129, 234, 238, 0.75);
+    box-shadow: 10px -10px 5px 0px rgba(120, 212, 228, 0.75);
+
+
+}
+
+.col1div {
+    position: relative;
+    z-index: 2;
+}
+
+.col2div {
+    position: relative;
+    z-index: 1;
+}
+
+.logoname {
+    padding-top: 6rem;
+    /* padding-left: 10rem; */
+    font-size: 17rem;
+}
+
+.register {
+    font-size: 1.3em;
+}
+
+.Lweldiv {
+    /* border: 1px solid black; */
+    width: 17rem;
+    height:8rem;
+    position:relative
+
+}
+.welimg{
+    width:20rem;
+    margin-top:-33rem;
+    margin-left: 6rem;
+}
+
+.logartfloralogo{
+    margin-left: 7rem;
+    padding-top: -9rem;
+    width:2rem;
+}
+
+.nameart {
+    margin-top: -7.3rem;
+    position: relative;
+    z-index: 1;
+
+}
+
+.cartoon {
+    margin-top: -23rem;
+    margin-left: 1.4rem;
+    color: rgb(17, 20, 20);
+}
+
+.carttonimg {
+    width: 30rem;
+    
+
+}

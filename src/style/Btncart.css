@@ -1,0 +1,23 @@
+.cart_trol{
+    position: relative;
+    .cart_trolley{
+        position: relative;
+        /* font-size: 3.2rem; */
+    }
+    .cart_total{
+        position: relative;
+        margin-top: -2px;
+        margin-left: -5px;
+        font-size: 1rem;
+        color: black;
+        background-color: rgb(38, 135, 239);
+        width:1.2rem;
+        height:1.3rem;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        top:-1px;
+        font-size:15px;
+        
+    }
+}

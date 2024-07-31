@@ -1,0 +1,63 @@
+
+.CustMaindiv{
+    height:96vh;
+    background-color: rgb(156, 232, 232);
+    margin-top: 1rem;
+}
+
+.Chead{
+    background-color: black;
+    color: white;
+}
+.Custdiv{
+    /* border: 1px solid black; */
+    height:96vh;
+   
+    
+}
+.Cusdiv1{
+    
+    width:35%;
+    height:86vh;
+    margin: 0.7rem;
+    background-color: rgb(253, 253, 254);
+    padding:1rem;
+    /* position: sticky;
+    top: 0; */
+    
+}
+
+.cusimg{
+    width:10rem;
+    height:10rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10rem;
+}
+
+
+
+.tablerow{
+    height:3rem;
+}
+
+.custable{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.Cusdiv2{
+    width:62%;
+    height:86vh;
+    margin: 0.7rem;
+    background-color: rgb(252, 254, 254);
+    padding:1rem;
+}
+
+.Cusordtable{
+    margin-left: 1rem;
+}
+.itemimg{
+    width:6.5rem;
+    height:6.5rem;
+}

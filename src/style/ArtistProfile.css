@@ -1,0 +1,55 @@
+
+.art_div{
+    height:100vh;
+}
+.Main_div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.First_div{
+    margin-top: 0.5rem;
+    width:48%;
+    border: 1px solid black;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+.Second_div{
+    margin-top: 0.5rem;
+    width:48%;
+    padding: 0.3rem; 
+    border: 1px solid black;
+    border-radius: 0.5rem;
+
+
+}
+
+
+.profile_img{
+    width: 8rem;
+    height:8rem;
+    border-radius: 50%;
+    border: 2px solid rgb(3, 3, 14);
+    margin-left: 12.5rem;
+}
+
+.protable{
+    margin-left: 4rem;
+}
+
+.adhar_img{
+    width:10rem;
+    margin-left: 6rem;
+}
+.handicer_img{
+    width:11rem;
+    margin-left: 1.5rem;
+
+}
+.Edit_button{
+    margin-left: 31.3rem;
+    margin-top: 0.3rem;
+}

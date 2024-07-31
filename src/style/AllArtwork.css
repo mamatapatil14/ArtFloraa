@@ -1,0 +1,65 @@
+.Allhead{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.all_img{
+    /* width:10rem; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1rem;
+    margin-bottom: auto;
+    width:10rem
+}
+.all_col{
+    width:20rem;
+    padding-top: auto;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    box-shadow: rgba(221, 218, 218, 0.804) 0px 2px 2px 2px;
+    
+}
+
+.all_col:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 6px 12px;
+}
+
+.all_row{
+    margin-left: 5.7rem;
+}
+
+.all_content{
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.filter{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.all_drp{
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    
+}
+
+.btnhide{
+    margin-left: 12rem;
+    width:6rem;
+    margin-bottom: 0.5rem;
+}
+.all_modal{
+    margin-top: -1.5rem;
+}
+
+.modaldiv{
+    height:70vh;
+    display: flex;
+}
+
+.modalview{
+    margin-top: 5rem;
+}
